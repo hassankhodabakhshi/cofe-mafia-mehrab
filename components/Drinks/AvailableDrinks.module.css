@@ -1,0 +1,37 @@
+.availableDrinks {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.drinkList {
+  list-style: none;
+  padding: 0;
+}
+
+.drinkItem {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.drinkImage {
+  margin-right: 15px;
+}
+
+.drinkDescription {
+  flex-grow: 1;
+}
+
+.drinkPrice {
+  font-weight: bold;
+}
+
+.drinkForm {
+  margin-left: 15px;
+}

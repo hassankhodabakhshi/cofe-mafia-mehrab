@@ -1,0 +1,72 @@
+/* Background Image */
+.homeImage {
+  position:fixed;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+.homeImage img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+/* Welcome message section */
+.pageOverlay{
+  height: 80vh;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Menu.module.css */
+
+.menu {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* انتخاب‌گرهای محلی برای img */
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; /* فاصله بین آیتم‌ها */
+}
+
+.title { /* کلاس محلی برای h1 */
+  font-size: 32px; /* سایز پیش‌فرض */
+  text-align: center;
+}
+
+.established {
+  font-style: italic;
+  text-align: center;
+}
+
+.price {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .title {
+      font-size: 24px; /* تغییر سایز در صفحه‌های کوچک */
+  }
+  
+  .item {
+      flex-direction: column; /* تغییر ترتیب در صفحه‌های کوچک */
+      align-items: flex-start; /* تراز به چپ */
+  }
+}

@@ -1,0 +1,125 @@
+.menu {
+    /* استایل‌های مربوط به کل منو */
+}
+
+.title {
+    text-align: center;
+    font-family: Impact, serif;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: Impact, serif;
+    color: #ffffff;
+}
+
+.bottomLine {
+    text-align: center; /* استایل‌های مربوط به خط پایینی */
+}
+
+.address {
+    color: #ffffff;
+    text-align: center;
+    /* استایل‌های مربوط به آدرس */
+}
+
+.body {
+    background-image: url('/img/Cafe-beans.jpg');
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.established {
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.menu img {
+    margin-top: -25px; /* استفاده از کلاس محلی */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+/* FOOTER */
+
+.footer {
+    font-size: 14px; /* استفاده از کلاس footer */
+    color: #ffffff;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+.menu a {
+    color: black; /* استفاده از کلاس محلی */
+}
+
+.menu a:visited {
+    color: black;
+}
+
+.menu a:hover {
+    color: brown;
+}
+
+.menu a:active {
+    color: brown;
+}
+
+
+.p {
+    color: rgb(255, 254, 254); /* تغییر رنگ به قرمز */
+  }
